@@ -1,0 +1,12 @@
+Prompt used for AWS Kiro AI:
+
+Generate a complete Python script that acts as a simple website uptime and performance monitor. It should be beginner-friendly but production-useful. The script must include the following features:
+
+- Check website uptime (200 OK = UP, anything else = DOWN)
+- Measure response time in milliseconds
+- Configurable timeout for HTTP requests
+- Check multiple URLs from a list
+- Console logging (UP/DOWN + response time + timestamp)
+- Write logs to a CSV file automatically
+- Send alert notifications on email when a website is DOWN
+- Use only standard Python libraries + requests
